@@ -37,7 +37,7 @@ Ensure you have a PostgreSQL database available. You will need the following det
 1. `db_create.py`
 This script sets up the PostgreSQL table to store SCID data. Update the PostgreSQL connection details and the table name in this script.
 
-2. checkpoint.json
+2. `checkpoint.json`
 This file tracks the last processed position in the SCID file and whether the initial load is completed.
 
 3. `data_sync.py`
